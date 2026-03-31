@@ -56,3 +56,7 @@ namespace PraktikumADO
                 MessageBox.Show("Error hitung mahasiswa: " + ex.Message);
             }
         }
+
+        private void btnHitungMK_Click(object sender, EventArgs e)
+        {
+       
