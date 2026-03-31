@@ -29,4 +29,9 @@ namespace PraktikumADO
                 conn.Open();
                 MessageBox.Show("Koneksi ke database berhasil");
                 conn.Close();
- 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error koneksi: " + ex.Message);
+            }
+        }
