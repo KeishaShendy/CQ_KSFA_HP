@@ -13,3 +13,7 @@ namespace PraktikumADO
         {
             InitializeComponent();
         }
+
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
