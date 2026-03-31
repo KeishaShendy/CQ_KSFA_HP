@@ -17,3 +17,7 @@ namespace PraktikumADO
         private void Koneksi()
         {
             conn = new SqlConnection(
+                @"Data Source=LAPTOP-MBD0B33T\SHENDY;Initial Catalog=DBAkademikADO;Integrated Security=True"
+            );
+        }
+
