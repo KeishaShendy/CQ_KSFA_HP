@@ -77,3 +77,7 @@ namespace PraktikumADO
                 MessageBox.Show("Error hitung mata kuliah: " + ex.Message);
             }
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+   
