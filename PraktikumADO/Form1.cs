@@ -35,3 +35,7 @@ namespace PraktikumADO
                 MessageBox.Show("Error koneksi: " + ex.Message);
             }
         }
+
+        private void btnHitungMhs_Click(object sender, EventArgs e)
+        {
+ 
